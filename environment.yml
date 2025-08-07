@@ -1,17 +1,14 @@
-name: pb_mathom
+name: freqfun
 channels:
   - conda-forge
   - defaults
 dependencies:
   - python=3.11
-  - scikit-learn
-  - statsmodels
   - ipykernel
   - climlab
   - pip
   - pip:
     - setuptools
     - git+https://github.com/LinkedEarth/Pyleoclim_util.git
-    - pandas>=2.0.0
+    - pylipd
     - pangaeapy
-    - numpy<=2.1.0

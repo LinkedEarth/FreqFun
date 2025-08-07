@@ -1,25 +1,43 @@
 [![DOI](https://zenodo.org/badge/246457932.svg)](https://zenodo.org/badge/latestdoi/246457932)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LinkedEarth/PaleoBooks/HEAD)
 
-# PaleoBooks
+# Fun with analysis in the frequency domain
 
-This repository serves as a clearing house for examples of paleoscientific work in the form of [Jupyter](https://jupyter.org) notebooks.  Currently, most examples illustrate the scientific use of software libraries maintained by [LinkedEarth](http://www.linked.earth), but we invite any and all contributions from the community. These examples are fully executable through Binder (click on the badge at the top). Workflows will be updated and maintained  until 2024 (sunsetting of PaleoCube grant), after which this will be become a legacy repository.
+## Motivation
 
-If you have suggestions for more examples, please submit an [issue](https://github.com/LinkedEarth/PaleoBooks/issues). If you want to contribute, please see [these guidelines](TBD.org). For more technical tutorials on how to use Pyleoclim, see [PyleoTutorials](https://github.com/LinkedEarth/PyleoTutorials). For more general information about Python-based computing in the geosciences, see [Pythia Foundations](https://foundations.projectpythia.org/).
+This repository contains several [Jupyter](https://jupyter.org) notebooks showcasing paleoclimate workflows making use of the frequency domain. Yes, we are talking about spectral, wavelet, and cross-wavelet analysis! 
 
-If you want to give us a shoutout, we're [social](https://twitter.com/Linked_Earth)!
+These notebooks are using several repositories maintained by [LinkedEarth](https://linked.earth):
 
-
-## Pyleoclim
+### Pyleoclim
 
 [Pyleoclim](https://pyleoclim-util.readthedocs.io/en/master/) is a Python package geared towards timeseries analysis of time-uncertain data.
 
-The package can (but do not necessarily have to) directly work with data in the Linked Paleo Data ([LiPD](https://lipd.net)) format. The advantage of working with that format is that the code contains automated data transformation, making working with paleoclimate data easier and faster.
+### PyLiPD
+
+The [PyLiPD](https://pylipd.readthedocs.io/en/latest/) package directly works with data in the Linked Paleo Data ([LiPD](https://lipd.net)) format. The advantage of using LiPD files for paleoclimate studies is that they are standardized, supporting automation of several functionalities. 
 
 ## License
 
 All notebooks herein are provided under an [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) license.
 
 ## Citation
-We needn't tell you that making research tools accessible requires time and effort. If you find any of these resources useful and use them in your own research, please do us the kindness of one or more citations. Notebooks in this collection are registered on Zenodo, and associated with a digital object identifier (DOI).  A ready-to-use citation is provided on this GitHub repository in APA and BibTex (in the "About" section on the right panel, click on "Cite this repository"). If you use any of the standards (LiPD) or the software (Pyleoclim), please cite them as well. It will make us (and our sponsors) very happy to hear that these investments spawned more research.
+We needn't tell you that making research tools accessible requires time and effort. If you find any of these resources useful and use them in your own research, please do us the kindness of one or more citations. Notebooks in this collection are registered on Zenodo, and associated with a digital object identifier (DOI).  A ready-to-use citation is provided on this GitHub repository in APA and BibTex (in the "About" section on the right panel, click on "Cite this repository"). If you use any of the software, please cite them as well. It will make us (and our sponsors) very happy to hear that these investments spawned more research.
+
+## Setting up the environment
+
+To setup the environment, run the following commands in the terminal:
+
+```
+conda install -n base conda-libmamba-solver
+conda config --set solver libmamba
+conda env create -f environment.yml
+
+conda activate freqfun
+conda install ipykernel    
+python -m ipykernel install --user --name=freqfun
+```
+
+This will create a conda environment named `freqfun` with all the necessary packages installed. The environment can be activated by running `conda activate freqfun`.
+
+Note: the commands about `ipykernel` are necessary to make the environment available in Jupyter notebooks.
