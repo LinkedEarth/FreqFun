@@ -1,6 +1,6 @@
 ![LinkedEarthlogo](https://github.com/LinkedEarth/Logos/blob/master/LinkedEarth/LinkedEarth_small.png?raw=true)
 
-[![DOI](https://zenodo.org/badge/246457932.svg)](https://zenodo.org/badge/latestdoi/246457932)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4556213.svg)](https://doi.org/10.5281/zenodo.4556213)
 [![NSF-1541029](https://img.shields.io/badge/NSF-2126510-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=2126510)
 [![license](https://img.shields.io/github/license/linkedearth/FreqFun.svg)]()
 
