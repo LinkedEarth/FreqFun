@@ -1,0 +1,27 @@
+name: Build container image
+
+on:
+  release:
+    branches: [ main ]
+  workflow_dispatch:
+
+# Prevent duplicate runs for the same ref (e.g., if a release is republished)
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: checkout files in repo
+      uses: actions/checkout@main
+
+    - name: update jupyter dependencies with repo2docker
+      uses: jupyterhub/repo2docker-action@main
+      with: # make sure username & password/token matches your registry
+        DOCKER_USERNAME: ${{ secrets.QUAY_USERNAME }}
+        DOCKER_PASSWORD: ${{ secrets.QUAY_PASSWORD }}
+        DOCKER_REGISTRY: "quay.io"
+        IMAGE_NAME: "linkedearth/freqfun"
