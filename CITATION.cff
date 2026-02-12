@@ -1,4 +1,4 @@
-cff-version: 0.0.1.2
+cff-version: 2.0.0.0
 message: "If you use this software, please cite it as below."
 authors:
   - family-names: "Khider"
@@ -17,7 +17,7 @@ authors:
     given-names: "Jordan"
     orcid: "https://orcid.org/0000-0001-9772-7617"
 title: "FreqFun: Fun with paleoclimate analysis in the frequency domain"
-version: v2.0
+version: v2.0.0
 doi: 10.5281/zenodo.5771123
 date-released: 2026-02-03
 url: "https://github.com/LinkedEarth/FreqFun"

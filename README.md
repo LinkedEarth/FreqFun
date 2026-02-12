@@ -1,6 +1,8 @@
 ![LinkedEarthlogo](https://github.com/LinkedEarth/Logos/blob/master/LinkedEarth/LinkedEarth_small.png?raw=true)
 
 [![DOI](https://zenodo.org/badge/246457932.svg)](https://zenodo.org/badge/latestdoi/246457932)
+[![NSF-1541029](https://img.shields.io/badge/NSF-2126510-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=2126510)
+[![license](https://img.shields.io/github/license/linkedearth/FreqFun.svg)]()
 
 
 # Solar and Orbital Forcing in Paleoclimate Records
