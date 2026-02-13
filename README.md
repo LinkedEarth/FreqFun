@@ -3,6 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4556213.svg)](https://doi.org/10.5281/zenodo.4556213)
 [![NSF-1541029](https://img.shields.io/badge/NSF-2126510-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=2126510)
 [![license](https://img.shields.io/github/license/linkedearth/FreqFun.svg)]()
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LinkedEarth/FreqFun/HEAD)
 
 
 # Solar and Orbital Forcing in Paleoclimate Records
