@@ -1,0 +1,5 @@
+{
+  "build": {
+    "base_image": "quay.io/linkedearth/freqfun"
+  }
+}
