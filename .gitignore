@@ -5,3 +5,6 @@ notebooks/lipd/.DS_Store
 .DS_Store
 data/Temp12k.zip
 /data/Temp12k
+
+# MyST build outputs
+_build

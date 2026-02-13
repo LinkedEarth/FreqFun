@@ -41,7 +41,7 @@ The notebooks address questions such as:
 
 The notebooks are intended to be read roughly in the following order.
 
-### 1. Solar forcing and Common Era temperature reconstructions
+### 1. Solar forcing over the Common Era
 
 **`01-solar_climate2k.ipynb`**
 
@@ -49,7 +49,7 @@ Explores the relationship between solar forcing and temperature reconstructions 
 
 ---
 
-### 2. Programmatic data discovery and spectral analysis at scale
+### 2. Exploring the relationship between insolation and millennium to orbital climate variability at scale 
 
 **`02a-query_lipd_graph.ipynb`**
 
