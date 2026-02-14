@@ -29,6 +29,8 @@ jobs:
 
       - name: Build site
         run: myst build --html
+        env:
+          BASE_URL: /FreqFun
 
       - uses: actions/upload-pages-artifact@v3
         with:
