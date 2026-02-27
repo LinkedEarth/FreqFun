@@ -41,7 +41,7 @@ The notebooks address questions such as:
 
 The notebooks are intended to be read roughly in the following order.
 
-### 1. Solar forcing over the Common Era
+### 1. Is there a solar signature on Common Era climate?
 
 **`01-solar_climate2k.ipynb`**
 
@@ -49,7 +49,7 @@ Explores the relationship between solar forcing and temperature reconstructions 
 
 ---
 
-### 2. Exploring the relationship between insolation and millennium to orbital climate variability at scale 
+### 2. Exploring the relationship between insolation and millennial- to orbital-scale variability 
 
 **`02a-query_lipd_graph.ipynb`**
 
@@ -65,7 +65,7 @@ Identifies and evaluates spectral peaks, with emphasis on red-noise benchmarks, 
 
 ---
 
-### 3. Detailed exploration of individual records
+### 3. Deep dive into of individual paleoclimate records
 
 **`03-EpicaDomeC_explore.ipynb`**
 
