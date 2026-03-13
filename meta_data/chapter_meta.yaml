@@ -1,0 +1,79 @@
+shortname: Fun in Frequency Domain
+type: Paleobook
+thumbnail: thumbnail.png
+parts:
+  - caption: Common Era Solar Signature
+    chapters:
+      - shortname: Solar-Climate Connections
+        filename: 01-solar_climate2k
+        thumbnail: ce_solar.png
+        tags:
+          domains:
+            - cross-wavelet analysis
+            - insolation
+            - paleoclimate
+          packages:
+            - pyleoclim
+  - caption: Millennial- to orbital-scale variability and Insolation
+    chapters:
+      - shortname: Query LiPDGraph
+        filename: 02a-query_lipd_graph
+        thumbnail: query_res.png
+        tags:
+          domains:
+            - SPARQL
+            - knowledge base
+          packages:
+            - pandas
+      - shortname: Scaling Behavior
+        filename: 02b-spectral_analysis_temp12k
+        thumbnail: scaling.png
+        tags:
+          domains:
+            - paleoclimate
+            - spectral analysis
+            - scaling behavior
+          packages:
+            - pyleoclim
+            - pylipd
+            - seaborn
+            - matplotlib
+            - cartopy
+      - shortname: Spectral Peaks
+        filename: 02c-spectral_analysis_peaks_temp12k
+        thumbnail: peaks.png
+        tags:
+          domains:
+            - paleoclimate
+            - spectral analysis
+            - spectral peaks
+          packages:
+            - pyleoclim
+            - seaborn
+            - matplotlib
+            - cartopy
+  - caption: Deep Diving
+    chapters:
+      - shortname: EPICAC
+        filename: 03-EpicaDomeC_explore
+        thumbnail: epica.png
+        tags:
+          domains:
+            - paleoclimate
+            - spectral analysis
+            - wavelet analysis
+            - cross-wavelet analysis
+            - singular spectrum analysis
+          packages:
+            - pyleoclim
+      - shortname: U1385
+        filename: 04-IODP389-U1385
+        thumbnail: iodp.png
+        tags:
+          domains:
+            - paleoclimate
+            - spectral analysis
+            - cross-wavelet analysis
+          packages:
+            - pyleoclim
+            - pangaeapy
