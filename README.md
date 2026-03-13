@@ -6,7 +6,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LinkedEarth/FreqFun/HEAD)
 
 
-# Solar and Orbital Forcing in Paleoclimate Records
+# Frequency-domain Investigations of Paleoclimate Records
 
 *A reproducible, data-centric exploration using LinkedEarth Tools*
 
