@@ -95,8 +95,8 @@ This material is intended for:
 
 - Graduate students learning paleoclimate data analysis
 - Researchers transitioning to Python-based, reproducible workflows
-- Instructors seeking worked examples of spectral analysis and forcing attribution
-- Researchers interested in large-scale, metadata-driven paleoclimate synthesis
+- Instructors seeking working examples of spectral and wavelet analysis 
+- Researchers interested in big data paleoclimate synthesis
 
 Some familiarity with time-series analysis and basic climate concepts is helpful, but the notebooks are written to be pedagogical and exploratory.
 
