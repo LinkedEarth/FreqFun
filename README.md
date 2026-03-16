@@ -6,7 +6,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LinkedEarth/FreqFun/HEAD)
 
 
-# Frewqency-based investigations of Paleoclimate Records
+# Frequency-based investigations of Paleoclimate Records
 
 *A reproducible, data-centric exploration using LinkedEarth Tools*
 
