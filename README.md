@@ -7,13 +7,11 @@
 
 
 # Frequency-based investigations of Paleoclimate Records
-
 *A reproducible, data-centric exploration using LinkedEarth Tools*
-
 
 ## Overview
 
-This repository contains a collection of Jupyter notebooks that use the frequency domain to explore the relationship between **external climate forcings**—in particular **solar variability** and **orbital forcing**—and **paleoclimate variability** across a range of timescales, from the last two millennia to the late Pleistocene. The notebooks are designed as a **narrative introduction to modern paleoclimate data analysis**, combining standardized data formats, programmatic data discovery, and transparent time-series analysis in a fully reproducible environment. These notebooks are meant to be used as both research and teaching resources.
+This repository contains a collection of Jupyter notebooks that use the frequency domain to explore the relationship between **external climate forcings** (particularly **solar irradiance** and **orbital forcing**) and **paleoclimate variability** across a range of timescales, from the Commom Era to the late Pleistocene. The notebooks are designed as a **narrative introduction to modern paleoclimate data analysis**, combining standardized data formats, programmatic data discovery, and transparent time-series analysis in a fully reproducible environment. These notebooks are meant to be used as both research and teaching resources.
 
 ## Scientific Motivation
 
