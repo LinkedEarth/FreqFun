@@ -6,16 +6,14 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LinkedEarth/FreqFun/HEAD)
 
 
-# Solar and Orbital Forcing in Paleoclimate Records
+# Frewqency-based investigations of Paleoclimate Records
 
 *A reproducible, data-centric exploration using LinkedEarth Tools*
 
 
 ## Overview
 
-This repository contains a collection of Jupyter notebooks that explore the relationship between **external climate forcings**—in particular **solar variability** and **orbital forcing**—and **paleoclimate variability** across a range of timescales, from the last two millennia to the late Pleistocene.
-
-The notebooks are designed as a **narrative introduction to modern paleoclimate data analysis**, combining standardized data formats, programmatic data discovery, and transparent time-series analysis in a fully reproducible environment. These notebooks are meant to be used as both research and teaching resources.
+This repository contains a collection of Jupyter notebooks that use the frequency domain to explore the relationship between **external climate forcings**—in particular **solar variability** and **orbital forcing**—and **paleoclimate variability** across a range of timescales, from the last two millennia to the late Pleistocene. The notebooks are designed as a **narrative introduction to modern paleoclimate data analysis**, combining standardized data formats, programmatic data discovery, and transparent time-series analysis in a fully reproducible environment. These notebooks are meant to be used as both research and teaching resources.
 
 ## Scientific Motivation
 
@@ -29,10 +27,10 @@ This project emphasizes **statistical rigor**, **careful significance testing**,
 
 The notebooks address questions such as:
 
-- Is there robust evidence for a solar influence on climate variability over the Common Era?
-- What periodicities emerge in large paleoclimate temperature compilations?
+- Is there a consistent relationship between solar irradiance and climate over the Common Era?
+- What periodicities emerge in a large compilation of Holocene temperature-sensitive records?
 - How consistent are spectral signals across archives and regions?
-- How do orbital-scale forcings manifest in individual high-resolution records?
+- How does orbital forcing manifest in high-resolution records from glacier ice and marine sediments?
 - What are the limitations of common spectral and coherence methods in paleoclimate applications?
 
 ---
