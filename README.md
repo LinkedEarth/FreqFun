@@ -47,7 +47,7 @@ Explores the relationship between solar forcing and temperature reconstructions 
 
 ---
 
-### 2. Exploring the relationship between insolation and millennial- to orbital-scale variability 
+### 2. Exploring the spectral properties of Holocene climate records
 
 **`02a-query_lipd_graph.ipynb`**
 
@@ -63,7 +63,7 @@ Identifies and evaluates spectral peaks, with emphasis on red-noise benchmarks, 
 
 ---
 
-### 3. Deep dive into of individual paleoclimate records
+### 3.  Orbital and millennial variability in two iconic records
 
 **`03-EpicaDomeC_explore.ipynb`**
 
