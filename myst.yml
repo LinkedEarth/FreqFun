@@ -19,12 +19,12 @@ project:
     - title: Is there a solar signature on Common Era climate?
       children:
         - file: notebooks/01-solar_climate2k.ipynb
-    - title: Exploring the relationship between insolation and millennial- to orbital-scale variability 
+    - title: Exploring spectral properties of Holocene climate records 
       children:
         - file: notebooks/02a-query_lipd_graph.ipynb
         - file: notebooks/02b-spectral_analysis_temp12k.ipynb
         - file: notebooks/02c-spectral_analysis_peaks_temp12k.ipynb
-    - title: Deep dive into of individual paleoclimate records
+    - title: Orbital and millennial variability in two iconic records
       children:
         - file: notebooks/03-EpicaDomeC_explore.ipynb
         - file: notebooks/04-IODP339-U1385.ipynb
