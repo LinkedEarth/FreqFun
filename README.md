@@ -6,16 +6,16 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LinkedEarth/FreqFun/HEAD)
 
 
-# Frequency-domain Investigations of Paleoclimate Records
+# Solar and Orbital Forcing in Paleoclimate Records
 
 *A reproducible, data-centric exploration using LinkedEarth Tools*
 
 
 ## Overview
 
-This repository contains a collection of Jupyter notebooks that explore the relationship between **external climate forcings**—in particular **solar variability** and **orbital forcing**—and **paleoclimate variability** across a range of timescales, from the last two millennia to the Pleistocene.
+This repository contains a collection of Jupyter notebooks that explore the relationship between **external climate forcings**—in particular **solar variability** and **orbital forcing**—and **paleoclimate variability** across a range of timescales, from the last two millennia to the late Pleistocene.
 
-The notebooks are designed as a narrative introduction to modern paleoclimate data analysis, combining standardized data formats, programmatic data discovery, and transparent time-series analysis in a fully reproducible environment. These notebooks are meant to be used as both research and teaching resources.
+The notebooks are designed as a **narrative introduction to modern paleoclimate data analysis**, combining standardized data formats, programmatic data discovery, and transparent time-series analysis in a fully reproducible environment. These notebooks are meant to be used as both research and teaching resources.
 
 ## Scientific Motivation
 
@@ -41,15 +41,15 @@ The notebooks address questions such as:
 
 The notebooks are intended to be read roughly in the following order.
 
-### 1. Solar-climate connections over the Common Era
+### 1. Is there a solar signature on Common Era climate?
 
 **`01-solar_climate2k.ipynb`**
 
-Explores the relationship between solar forcing and temperature reconstructions over the last two millennia, including wavelet coherence, significance, and interpretation.
+Explores the relationship between solar forcing and temperature reconstructions over the last two millennia, including exploratory analysis, visual comparison, and discussion of coherence, significance, and interpretation.
 
 ---
 
-### 2. Exploring Holocene temperature variability
+### 2. Exploring the relationship between insolation and millennial- to orbital-scale variability 
 
 **`02a-query_lipd_graph.ipynb`**
 
@@ -57,16 +57,15 @@ Introduces graph-based discovery of paleoclimate datasets using LiPDGraph and SP
 
 **`02b-spectral_analysis_temp12k.ipynb`**
 
-Applies spectral analysis techniques to temperature records from the Temp12k database, focusing on the continuum of climate variability.
+Applies spectral analysis techniques to temperature records from the Temp12k database, focusing on methodological choices and their implications.
 
 **`02c-spectral_analysis_peaks_temp12k.ipynb`**
 
-Applies spectral analysis techniques to temperature records from the Temp12k database, focusing on the periodic components (spectral peaks) commensurate with solar cyclicities.
-
+Identifies and evaluates spectral peaks, with emphasis on red-noise benchmarks, uncertainty, and archive-dependent behavior.
 
 ---
 
-### 3. Orbital-scale variability in ice and sedimentary archives
+### 3. Deep dive into of individual paleoclimate records
 
 **`03-EpicaDomeC_explore.ipynb`**
 
@@ -74,7 +73,7 @@ A deep dive into the EPICA Dome C ice core, exploring long-term variability, spe
 
 **`04-IODP339-U1385.ipynb`**
 
-Analyzes orbital-scale variability in a marine sediment core, linking millennial-scale variability to orbital forcing while highlighting uncertainty and methodological caveats.
+Analyzes orbital-scale variability in a marine sediment core, linking observed periodicities to orbital forcing while highlighting uncertainty and methodological caveats.
 
 ---
 
@@ -88,7 +87,7 @@ This project builds on the open paleoclimate software and data ecosystem, includ
 - [Pyleoclim](https://pyleoclim-util.readthedocs.io/en/latest/) for time-series, spectral, and coherence analysis
 - Public paleoclimate data repositories such as [NOAA NCEI](https://www.ncei.noaa.gov/products/paleoclimatology) and [PANGAEA](https://www.pangaea.de)
 
-All analyses are designed to be **transparent, didactic, and reusable**.
+All analyses are designed to be **transparent, inspectable, and reusable**.
 
 ---
 
@@ -98,7 +97,7 @@ This material is intended for:
 
 - Graduate students learning paleoclimate data analysis
 - Researchers transitioning to Python-based, reproducible workflows
-- Instructors seeking working examples of spectral analysis and forcing attribution
+- Instructors seeking worked examples of spectral analysis and forcing attribution
 - Researchers interested in large-scale, metadata-driven paleoclimate synthesis
 
 Some familiarity with time-series analysis and basic climate concepts is helpful, but the notebooks are written to be pedagogical and exploratory.
@@ -109,6 +108,7 @@ Some familiarity with time-series analysis and basic climate concepts is helpful
 
 - All analyses are performed in Jupyter notebooks
 - Code and narrative are interleaved to support transparency
+- The repository is suitable for use as a Jupyter Book
 - Users are encouraged to adapt workflows to their own datasets
 
 If you reuse this material, please cite the relevant datasets and software packages.
