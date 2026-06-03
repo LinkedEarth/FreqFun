@@ -2,7 +2,7 @@ name: Build container image
 
 on:
   release:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
 
 # Prevent duplicate runs for the same ref (e.g., if a release is republished)
