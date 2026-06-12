@@ -1,4 +1,4 @@
-shortname: Fun in Frequency Domain
+shortname: Fun in The Frequency Domain
 type: Paleobook
 thumbnail: thumbnail.png
 parts:
@@ -25,7 +25,7 @@ parts:
             - knowledge base
           packages:
             - pandas
-      - shortname: Scaling Behavior
+      - shortname: Holocene Scaling Behavior
         filename: 02b-spectral_analysis_temp12k
         thumbnail: scaling.png
         tags:
@@ -39,7 +39,7 @@ parts:
             - seaborn
             - matplotlib
             - cartopy
-      - shortname: Spectral Peaks
+      - shortname: Holocene Spectral Peaks
         filename: 02c-spectral_analysis_peaks_temp12k
         thumbnail: peaks.png
         tags:
@@ -52,7 +52,7 @@ parts:
             - seaborn
             - matplotlib
             - cartopy
-  - caption: Deep Diving
+  - caption: Deep Dive into Dome C
     chapters:
       - shortname: EPICAC
         filename: 03-EpicaDomeC_explore
