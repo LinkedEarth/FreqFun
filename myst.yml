@@ -7,6 +7,7 @@ project:
   # keywords: []
   # authors: []
   github: https://github.com/LinkedEarth/FreqFun
+  binder: https://mybinder.org/v2/gh/LinkedEarth/FreqFun/master
   jupyter:
     binder:
       url: https://mybinder.org
@@ -29,11 +30,15 @@ project:
         - file: notebooks/03-EpicaDomeC_explore.ipynb
         - file: notebooks/04-IODP339-U1385.ipynb
     
+
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  actions:
+    - title: Launch on Binder
+      url: https://mybinder.org/v2/gh/LinkedEarth/FreqFun/master?urlpath=lab
+  options:
+    header: {}
+
 
   options:
     header: {}
