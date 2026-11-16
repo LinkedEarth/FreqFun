@@ -7,6 +7,7 @@ project:
   # keywords: []
   # authors: []
   github: https://github.com/LinkedEarth/FreqFun
+  binder: https://mybinder.org/v2/gh/LinkedEarth/FreqFun/master
   jupyter:
     binder:
       url: https://mybinder.org
